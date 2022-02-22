@@ -1,0 +1,1 @@
+hermione, hermione@gmail.com, 22222, hogwarts, assets/img/uploads/1645507526hermione.jpg$harry, harry@gmail.com, 111, hogwarts, assets/img/uploads/1645507561harry.jpg$luna, luna@gmail.com, 454, hogwarts, assets/img/uploads/1645507663image.jpg$
