@@ -12,9 +12,9 @@ if (!isset($_SESSION['id']))
     <div class="container">
         <div class="row">
             <?php foreach ($students as $student){ ?>
-                <div class="col-md-4 ">
+                <div class="col-md-3 ">
                     <div class="card">
-                        <img src="<?php echo $student['image']?>" alt="" class="card-img-top" style="height: 350px;">
+                        <img src="<?php echo $student['image']?>" alt="" class="card-img-top" style="height: 200px;">
                         <div class="card-body">
                             <h2><?php echo $student['name']?></h2>
                             <p><?php echo $student['email']?></p>

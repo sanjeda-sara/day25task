@@ -1,7 +1,7 @@
 <?php
 session_start();
 if (!isset($_SESSION['id'])) {
-    header('Location: action.php?pages=home');
+    header('Location: action.php?pages=register');
 }
 ?>
 

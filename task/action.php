@@ -28,6 +28,9 @@ if(isset($_GET['pages'])) {
         $students = $register -> getAllStudentInfo();
         include 'pages/viewStudents.php';
     }
+    elseif ($_GET['pages'] == 'courses') {
+        include 'pages/courses.php';
+    }
 }
 elseif (isset($_POST['login_btn']))
 {
